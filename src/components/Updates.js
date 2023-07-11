@@ -11,6 +11,7 @@ function Updates()
             <Updateitem />
             <Updateitem />
             <Updateitem />
+            <Updateitem />
             </div>
             </div>
 
