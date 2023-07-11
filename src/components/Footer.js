@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div>
             <div className="container my-4 mx-2">
-                <footer className="bg-indigo text-center text-lg-start text-white" style={{width: "98vw" , height: "35vh"}}>
+                <footer className="bg-indigo text-center text-lg-start text-white" >
                     <div className="container p-4">
                         <div className="row my-4">
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
@@ -80,7 +80,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="text-center p-3 text-secondary" style={{backgroundColor: "none"}}>PRIVACY POLICY | COPYRIGHT | TERMS</div>
+                    <div className="text-center p-3 text-secondary" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>PRIVACY POLICY | COPYRIGHT | TERMS</div>
                 </footer>
             </div>
         </div>

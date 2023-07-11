@@ -1,9 +1,11 @@
 body{
     background-image: url('./images/Main\ Page\ Background.png');
-    background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 .updates{
   margin-top: 14pc;
+  margin-bottom: 0pc;
 }
 .cardd {
   width: 66%;
@@ -262,14 +264,15 @@ a.active,a:hover{
     left: 0;
   }
 }
-
-
 @media screen and (max-width:1300px) and (min-width:990px) {
   .title{
     font-size:73px;
   }
   .customhead{
     font-size: 90px;
+  }
+  .updates{
+    margin-top: 4pc;
   }
   .ptext{
     font-size: 20px;
@@ -312,11 +315,10 @@ a.active,a:hover{
 line-height: 67px;
   }
 }
-
 @media screen and (max-width:990px) and (min-width:700px) {
-
-
-
+  .updates{
+    margin-top: 60px;
+  }
   .container{
     margin-left: 35px;
     margin-top: 100px;
@@ -337,6 +339,7 @@ line-height: 67px;
       }
     .btns{
       font-size: 15px;
+      width : 54%;
     }
     .pcard{
       font-size: 14px;
@@ -377,8 +380,10 @@ line-height: 67px;
       margin-left: 20px;
     }
 }
-
 @media screen and (max-width:700px) and (min-width:500px) {
+  .updates{
+    margin-top: 50px;
+  }
   .container{
     margin-left: 45px;
     margin-top: 50px;
@@ -420,7 +425,7 @@ font-size: 20px;
 line-height: 24px;
 border: 3.79px solid #FFB400;
 width : 300px;
-background-color: #084B82;
+/* background-color: #084B82; */
 border-radius: 4px;
 text-align: center;
 margin-left: auto;
@@ -461,6 +466,9 @@ padding: 10px;
 
 }
 @media screen and (max-width:500px) {
+  .updates{
+    margin-top: 30px;
+  }
   .container{
     margin-left: 20px;
     margin-top: 45px;
@@ -528,12 +536,12 @@ padding: 10px;
     border-radius: 3px; 
   }
   .scrollable-container{
-    margin-right:4pc ;
+    margin-right:1pc ;
     margin-left: 1pc;
     
   }
   .cardd {
-    width: 60%;
+    width: 70%;
     border: 2px solid #FFB400;
     border-radius: 5px;
     overflow: hidden;
