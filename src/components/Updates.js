@@ -8,9 +8,9 @@ function Updates()
             <div className="scrollable-container">
             <div class="scrollable-content" >
             <Updateitem />
-            <Updateitem />
-            <Updateitem />
-            <Updateitem />
+            <div className="cspace"><Updateitem /></div>
+            <div className="cspace"><Updateitem /></div>
+            <div className="cspace"><Updateitem /></div>
             <Updateitem />
             </div>
             </div>

@@ -57,23 +57,31 @@ line-height: 29px;
 letter-spacing: 0.04em;
 text-align: justified;
 color: #FFB400;
-
+}
+h5{
+  text-align: center;
+}
+.cspace{
+  margin-top: 50px;
+  margin-bottom:50px;
 }
 .updateitem{
   display: flex;
   flex-direction: row;
-  margin-top: 3pc;
+  /* margin-bottom: 3pc; */
   justify-content: center;
 }
 .scrollable-content {
-  height: 600px; 
-  overflow: auto;
+  height: 550px; 
+  overflow:auto;
   
 }
 .scrollable-container{
   margin-right:10pc ;
   margin-left: 12pc;
-  
+  margin-top: 4pc;
+  width: auto;
+  height: auto;
 }
 .poko{
   margin-right: 50px;
@@ -182,9 +190,12 @@ letter-spacing: 0.03em;
   border-radius: 3px;
   text-transform: uppercase;
 }
-a.active,a:hover{
+a.active{
   background: #FFB400;
   transition: .5s;
+}
+.navh a:hover{
+  color: #FFB400;
 }
 .checkbtn{
   font-size: 30px;
@@ -210,13 +221,31 @@ a.active,a:hover{
   }
   label.logo{
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
   }
   .navh ul li a{
-    font-size: 12px;
+    font-size: 13px;
   }
   .gambitorh{
     width:80px;
+  }
+  .navh ul{
+    margin-right: 5px;
+  }
+  .navh ul li{
+    margin:0 5px;
+  }
+}
+@media screen and (max-width: 1305px) and (min-width:1085px){
+  .navh {
+    margin-left: -10px;
+    width:1300px;
+  }
+  .navh ul{
+    margin-right: 10px;
+  }
+  .navh ul li{
+    margin:0 10px;
   }
 }
 @media screen and (max-width: 875px) {
@@ -237,14 +266,12 @@ a.active,a:hover{
     display: block;
   }
   .headerlist{
-    position: fixed;
     width: 100%;
-    height: 100vh;
-    /* background: #0a118b; */
-    top: 70px;
+    position:fixed;
+    top: -40px;
     left: -100%;
     text-align: center;
-    transition: all .5s;
+    transition: all 0.1ms;
   }
   .navh ul li{
     display: block;
@@ -262,6 +289,7 @@ a.active,a:hover{
   }
   #check:checked ~ ul{
     left: 0;
+    position: relative;
   }
 }
 @media screen and (max-width:1300px) and (min-width:990px) {
