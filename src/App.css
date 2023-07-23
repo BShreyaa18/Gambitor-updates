@@ -292,6 +292,18 @@ a.active{
     position: relative;
   }
 }
+@media screen and (max-width:397px) {
+  label.logo{
+    padding-left: 0px;
+    margin-left: -10px;
+  }
+  .logoh{
+    width:20px;
+  }
+  .gambitorh{
+    width:120px;
+  }
+}
 @media screen and (max-width:1300px) and (min-width:990px) {
   .title{
     font-size:73px;
@@ -585,3 +597,15 @@ padding: 10px;
 }
 }
 
+@media screen and (max-width:397px) {
+  label.logo{
+    padding-left: 0px;
+    margin-left: -10px;
+  }
+  .logoh{
+    width:20px;
+  }
+  .gambitorh{
+    width:120px;
+  }
+}
